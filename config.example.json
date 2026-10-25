@@ -1,0 +1,19 @@
+{
+  "checkUrl": "https://api.yapper.website/rest/v1/profiles?select=username&username=ilike.{name}",
+  "method": "GET",
+  "needsCookie": false,
+  "cookie": "",
+  "extraHeaders": {
+    "apikey": "PASTE_THE_APIKEY_HEADER",
+    "authorization": "Bearer PASTE_THE_REST_OF_THE_AUTHORIZATION_HEADER",
+    "accept-profile": "public",
+    "origin": "https://www.yapin.gg",
+    "referer": "https://www.yapin.gg/"
+  },
+  "mode": "check",
+  "chars": "abcdefghijklmnopqrstuvwxyz0123456789",
+  "minLength": 2,
+  "maxLength": 3,
+  "concurrency": 3,
+  "delayMs": 300
+}
